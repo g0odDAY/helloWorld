@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css/font.html</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <style>
+        *{
+            font-size: 16px;
+           
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            font-family: 'Nanum Pen Script', cursive;
+            font-size: 1em;
+            font-weight: bold;
+            
+        }
+        .book1{
+            list-style-type: none;
+        }
+        .book2{
+            list-style-image: url('../imgs/home.png');
+        }
+        .inside{
+            list-style-position: inside;
+        }
+
+        nav{
+            width: 300px;
+            margin: 50px 30px;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            border: 1px solid #222;
+            padding:20px 40px;
+            margin: 5px;
+        }
+        table{
+            caption-side: bottom;
+            border: 1px solid black;
+        }
+        td,tr{
+            border:1px dotted black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>레드향</h1>
+    <p>껍질에 붉은</p>
+    <p>레드향은 한라봉</p>
+    <p>비타민 c와 비타민 p</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis cum distinctio ullam illum vel expedita consectetur? Cum, aliquam. Vero omnis mollitia tempore laboriosam dolorum nostrum. Blanditiis quo vitae nobis?</p>
+
+    <span class="material-icons-outlined">
+        home
+    </span>
+    <span class="material-icons">
+        home
+    </span>
+    <span class="material-icons-outlined">face</span>
+    <ul class="book1">
+        <li>do it</li>
+        <li>첫 코딩 시리즈</li>
+        <li>된다 시리즈</li>
+    </ul>
+    <ol class="book2">
+        <li>do it</li>
+        <li>첫 코딩 시리즈</li>
+        <li>된다 시리즈</li>
+    </ol>
+    <ol class="inside">
+        <li>do it</li>
+        <li>첫 코딩 시리즈</li>
+        <li>된다 시리즈</li>
+    </ol>
+<h2>상품 구성</h2>
+    <table >
+        <caption>선물용과 가정용 상품 구성</caption>
+        <tr>
+            <td>용도</td>
+            <td>중량</td>
+            <td>개수</td>
+            <td>가격</td>
+        </tr>
+        <tr>
+            <td rowspan="2">선물용</td>
+            <td>3kg</td>
+            <td>11-16</td>
+            <td>35000</td>
+
+        </tr>
+        <tr>
+            <td>5kg</td>
+            <td>18-26</td>
+            <td>52000</td>
+        </tr>
+        <tr>
+            <td rowspan="2">가정용</td>
+            <td>3kg</td>
+            <td>11-16</td>
+            <td>30000</td>
+
+        </tr>
+        <tr>
+            <td>5kg</td>
+            <td>18-16</td>
+            <td>47000</td>
+
+        </tr>
+    </table>
+</body>
+</html>
