@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+
+}
+
+header>ul>li{
+    display: inline-block;
+    width: 50px;
+}
+
+h1{
+    background-color: burlywood;
+}
+h2{
+    color: crimson;
+    background-color: darkkhaki;
+}
